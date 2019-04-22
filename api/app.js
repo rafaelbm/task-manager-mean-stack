@@ -12,6 +12,13 @@ const { Task } = require("./db/models/task.model");
 // Load middleware
 app.use(bodyParser.json());
 
+// CORS Headers middleware
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
+
 /* ROUTE HANDLERS */
 
 /* LIST ROUTES */
