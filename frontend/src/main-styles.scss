@@ -1,12 +1,12 @@
 // This is where we put global styles and change variables values
 
 // Import Fonts (Lato and Nunito)
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Nunito:400,700');
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Nunito:400,700");
 
 $turquoise: #44ddd0;
 $green: #27d7a1;
 $light-green: #45f69e;
-$dark-green: rgb(0,100,80);
+$dark-green: rgb(0, 100, 80);
 
 $light: #f8f8f8;
 
@@ -25,10 +25,11 @@ $input-shadow: none;
 // Set custom global styles (will be applied to whole app)
 
 html {
-background: linear-gradient(to right top, $turquoise, $green);
+  background: linear-gradient(to right top, $turquoise, $green);
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -40,11 +41,18 @@ html, body {
   height: 100%;
 }
 
-.modal-box{
+.modal-box {
   min-height: 200px;
   width: 100%;
   max-width: 580px;
   background: white;
   border-radius: 5px;
   padding: 35px;
+}
+
+.title {
+  font-family: "Lato";
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
