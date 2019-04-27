@@ -19,13 +19,12 @@
         </span>
       </p>
     </div>
-    <div class="field is-pulled-right">
-      <p class="control">
-        <button class="button is-success has-text-white"
-          (click)="onLoginButtonClick(emailInput.value, passwordInput.value)">
-          Login
-        </button>
-      </p>
+    <div class="buttons is-right">
+      <button class="button is-success has-text-white "
+        (click)="onLoginButtonClick(emailInput.value, passwordInput.value)">
+        Login
+      </button>
     </div>
+    <p class="has-text-grey">Not got an account? <a routerLink="/signup">Sign up</a> now!</p>
   </div>
 </div>
