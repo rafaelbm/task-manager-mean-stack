@@ -7,4 +7,4 @@ services:
     ports: 
       - "27017:27017"
 
-# Run "docker-compose up" at this directory to run a mongo container at port 27017
+# Run "docker-compose up" at this directory to run a MongoDB container at port 27017
