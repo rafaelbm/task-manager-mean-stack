@@ -9,7 +9,7 @@ The original [repository](https://github.com/Devstackr/task-manager-mean-stack) 
 
 Run `npm install` in both the **api** and **frontend** folders
 
-We depend upon MongoDB, if you have it installed on yout machine you are most likely good to go. Otherwise, if you have **Docker** installed on your machine, you can use the `docker-compose.yml` to spin-up a MongoDB Docker container.
+We depend upon MongoDB, if you have it installed on your machine you are most likely good to go. Otherwise, if you have **Docker** installed on your machine, you can use the `docker-compose.yml` to spin-up a MongoDB Docker container.
 
 ## Running
 
