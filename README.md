@@ -15,7 +15,7 @@ We depend upon MongoDB, if you have it installed on yout machine you are most li
 
 Run `node app.js` in the **api** folder to run the NodeJS API
 
-Run `ng  erve` in the **frontend** folder to run the Angular frontend
+Run `ng  serve` in the **frontend** folder to run the Angular frontend
 
 Open a browser and navigate to **http://localhost:4200**
 
